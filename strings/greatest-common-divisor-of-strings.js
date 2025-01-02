@@ -4,9 +4,6 @@
  * @return {string} - The greatest common divisor string of str1 and str2
  */
 var gcdOfStrings = function (str1, str2) {
-    // Print the concatenation of str1 and str2 for debugging purposes
-    console.log(str1 + str2);
-    
     // If concatenating str1 and str2 in both orders does not produce the same result, return an empty string
     if (str1 + str2 !== str2 + str1) return '';
     
