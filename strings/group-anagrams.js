@@ -7,8 +7,9 @@ function groupAnagrams(strs) {
     for (let s of strs) {
         // Sort the string to use as a key
         const sortedS = s.split('').sort().join('');
+        console.log(sortedS);
         
-        // If the key does not exist in the result object, create an array for it
+        // If the key does not exist in the result object, create an array for it directly
         if (!res[sortedS]) {
             res[sortedS] = [];
         }
