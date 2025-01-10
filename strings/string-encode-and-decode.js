@@ -22,7 +22,7 @@ class Solution {
             let j = i;
             while (str[j] !== '#') {
                 j++;
-            }
+            }            
             let length = parseInt(str.substring(i, j));
             i = j + 1;
             j = i + length;
