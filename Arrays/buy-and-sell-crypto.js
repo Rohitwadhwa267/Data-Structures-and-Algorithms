@@ -8,15 +8,8 @@ class Solution {
         let minBuy = prices[0];
 
         for (let sell of prices) {
-            maxP = Math.max(maxP, sell - minBuy);
-            console.log(maxP);
-            console.log("sell",sell);
-            console.log("minBuy",minBuy);
-            
-            
-            minBuy = Math.min(minBuy, sell);
-            console.log("minBuy 2",minBuy);
-            
+            maxP = Math.max(maxP, sell - minBuy);            
+            minBuy = Math.min(minBuy, sell);            
         }
         return maxP;
     }
