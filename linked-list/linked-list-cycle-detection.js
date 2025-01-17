@@ -14,6 +14,9 @@ class Solution {
      * @return {boolean}
      */
     hasCycle(head) {
+        if (head === null) {
+            return false;
+        }
         let fast = head;
         let slow = head;
 
@@ -29,3 +32,6 @@ class Solution {
         return false;
     }
 }
+
+
+
