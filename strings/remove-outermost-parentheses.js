@@ -1,6 +1,4 @@
 // remove-outermost-parentheses
-
-
  
 var str = "(()())(())";
 
@@ -23,4 +21,5 @@ var removeOuterParentheses = function(S) {
     return res;
 }
 
-console.log(removeOuterParentheses(str));
+// Output: "()()()"
+console.log(removeOuterParentheses(str)); // Test with input "(()())(())"
