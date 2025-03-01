@@ -11,8 +11,9 @@ class Solution {
             if (mp.has(tmp)) {
                 return [mp.get(tmp), i + 1];
             }
-            mp.set(numbers[i], i + 1);
+            mp.set(numbers[i], i);
         }
         return [];
     }
 }
+

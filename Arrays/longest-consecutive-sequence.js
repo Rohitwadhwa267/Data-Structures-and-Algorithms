@@ -18,3 +18,7 @@ class Solution {
         return res;
     }
 }
+
+const solution = new Solution();
+// Output: 4
+console.log(solution.longestConsecutive([100, 4, 200, 1, 3, 2])); // Test with input [100,4,200,1,3,2]
